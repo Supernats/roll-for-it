@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative "./../lib/dice.rb"
+
+print Dice.roll(ARGV.first) unless ARGV.empty?
